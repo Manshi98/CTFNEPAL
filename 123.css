@@ -1,0 +1,24 @@
+footer{
+    background-color: aquamarine;
+    padding: 50px;
+    text-align: center;
+    color: beige;
+
+}
+/* Default style*/
+.container{
+
+    width: 100%;
+    padding: 39px; 
+    background-color: blue;
+    text-align:center;
+}
+/* Media query for small screens*/
+@media screen and (max-width: 800px){
+    .container{
+        background-color: brown;
+    }
+footer{
+    background-color: blueviolet;
+}
+}
